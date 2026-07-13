@@ -6,4 +6,5 @@
     <value>Работа с пользователями</value>
   </synonym>
   <server>true</server>
+  <serverCall>true</serverCall>
 </mdclass:CommonModule>
