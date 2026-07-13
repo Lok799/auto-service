@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7094371-f90d-4364-818a-90110a2cbbd1">
+  <producedTypes>
+    <objectType typeId="427f912a-3a25-4d6f-a8f2-da3eb0261acc" valueTypeId="5789eecf-06c2-41ba-a460-ad60c0b9c3db"/>
+    <managerType typeId="68fab974-7970-4d5e-9261-d3694c5bab1b" valueTypeId="41f94ee0-25e9-42ba-815b-942bd0c81540"/>
+  </producedTypes>
+  <name>РаботаСEXCEL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка Прайс-листа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаСEXCEL.Form.Форма</defaultForm>
+  <attributes uuid="f80b0667-1fc0-4a04-8dbe-13c2b3ad1595">
+    <name>ДатаПрайсЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прайс листа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6c706367-dd24-4bf2-8398-1509d12df9fe">
+    <name>ВидЦеныПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид цены продажи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЦенПродажи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d385ac5c-77fd-4bd9-be48-965f2ad31ffc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

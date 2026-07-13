@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="121f7bc6-9af0-416d-b7f0-0ea5b007ef8a">
+  <producedTypes>
+    <refType typeId="b3ee0cc2-054f-4104-b525-cd760db8dabf" valueTypeId="4eaa63bc-9aa2-469f-98ef-704603a5c1a8"/>
+    <listType typeId="cd6efa37-7137-4a14-8df8-1b1947eaf6a8" valueTypeId="af68b56a-4ece-4ae2-baa8-14a0a05fd507"/>
+    <managerType typeId="40d6b7a9-8896-4918-a9cc-372b98dbe779" valueTypeId="9d4c6709-c53e-426e-8301-00b1538bb47a"/>
+  </producedTypes>
+  <name>ВидыОперацийРасходаДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций расхода денег</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ae4427d9-5991-46a5-b992-22d973a7df66">
+    <name>ОплатаПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата поставщику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5975c709-7b13-42f4-96b3-845000db4a16">
+    <name>ВозвратПокупателю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат покупателю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34de04de-d800-476c-8c75-d9996614542b">
+    <name>ВыдачаПодотчетнику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача подотчетнику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e59a7683-e038-4a2d-abe5-7dc9216e60e2">
+    <name>ВыдачаЗаработнойПлаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача заработной платы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a5d308a-1727-402a-854c-ead5369151de">
+  <producedTypes>
+    <objectType typeId="65bfb3a9-3499-41e5-835c-499a4e53d592" valueTypeId="ecc9dc75-673a-4e8d-a1cd-480b1a1fb3fd"/>
+    <refType typeId="60347038-6bcf-4617-9584-e5819ce9335e" valueTypeId="3ea44ed4-dbe3-45bf-bb57-c375ff67d3af"/>
+    <selectionType typeId="0f5efd03-17db-4b1f-9878-b1576e53e570" valueTypeId="1e19fdea-88ec-47c9-b499-d5370d6ab76b"/>
+    <listType typeId="96391cf0-d800-4f3b-82f2-d81c78b6f11f" valueTypeId="ecef08f0-b0bf-404b-8dee-ddec6ecab003"/>
+    <managerType typeId="a03a4792-10ca-41d3-a10d-7901954c147b" valueTypeId="1624f9aa-6638-4033-b72f-d8a57b3375a1"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Склады.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Склады.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="df714c46-48d7-4cc7-b6a0-2f8eb83180fb">
+    <name>МОЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материально-ответственное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e9b3914a-b200-4956-810f-e5597132c0b7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3310490c-d554-41b4-ad00-bf54d0a809d1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

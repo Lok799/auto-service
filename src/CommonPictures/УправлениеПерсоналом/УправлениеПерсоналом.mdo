@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="126ef420-a82b-400b-a7ff-943fdced38c0">
+  <name>УправлениеПерсоналом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление персоналом</value>
+  </synonym>
+</mdclass:CommonPicture>

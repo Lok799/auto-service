@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5b6e04f-afbb-4c8e-b201-232c3b3f8cef">
+  <producedTypes>
+    <selectionType typeId="3ed8c5d2-4bbc-4817-86a6-4338a5d4c3ae" valueTypeId="33902929-277f-43ad-9a4f-fcba8d2de19d"/>
+    <listType typeId="25e29b22-4d3c-40a2-87e8-bfc7e09c1c29" valueTypeId="debcfa95-9297-4e17-b20b-addbedaec5df"/>
+    <managerType typeId="0d669adf-39ee-4a1b-ad54-1ecdde002cf2" valueTypeId="bbb96214-2921-4aba-908b-ba9ec420763c"/>
+    <recordSetType typeId="893fe078-bb7a-4ff6-b7c4-343a59cbfc03" valueTypeId="af18f8c3-9bbf-4f45-b65e-ebdab9daa227"/>
+    <recordKeyType typeId="9ad92791-0797-4133-9ebb-bf75fb25dd2e" valueTypeId="00a09d29-ba00-4fdc-88f1-2de66f6f84ec"/>
+    <recordType typeId="cb533f68-25e8-4a22-a1ca-f5a3cc6cad31" valueTypeId="1efa64be-f683-4a91-9d14-8c3f99e3b961"/>
+    <recordManagerType typeId="77cdff5a-991a-4254-ae4a-caae0b55d007" valueTypeId="b3672e6c-97a9-4eb5-8062-bff1db2a336e"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1e9b8b5a-886c-403d-9665-0a79ac5654f6">
+    <name>СпособУчетаЗапасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ учета запасов</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыСписанияЗапасов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

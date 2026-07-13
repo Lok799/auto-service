@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c3767b2-e29c-44a9-98e0-7d1352bd84c8">
+  <name>customerOrders</name>
+  <synonym>
+    <key>ru</key>
+    <value>Customer orders</value>
+  </synonym>
+  <rootURL>customerOrders</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="30bfddfb-9037-493f-8efb-73078b2fdbe7">
+    <name>customerOrders</name>
+    <synonym>
+      <key>ru</key>
+      <value>Customer orders</value>
+    </synonym>
+    <template>/customerOrders</template>
+    <methods uuid="4493978b-fdb0-4f7d-a239-7fe62f014e00">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>customerOrdersPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

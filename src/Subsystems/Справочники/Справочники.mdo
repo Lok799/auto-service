@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4977c52-9907-4b45-bded-03dfd6743eb0">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Справочники</picture>
+  </picture>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.СтатьиЗатрат</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Договоры</content>
+  <content>Catalog.ИсточникИнформации</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Кассы</content>
+  <content>Catalog.ОписаниеЦветовДляТехпаспорта</content>
+  <content>Catalog.ЦветаАвтомобилей</content>
+  <content>Catalog.МоделиАвтомобилей</content>
+  <content>Catalog.Автомобили</content>
+  <content>Catalog.Склады</content>
+  <content>InformationRegister.ГрафикиРаботыПредприятия</content>
+  <content>Catalog.ГрафикиРаботыСотрудников</content>
+  <content>InformationRegister.КадроваяИсторияСотрудников</content>
+  <content>ChartOfCalculationTypes.Начисления</content>
+</mdclass:Subsystem>

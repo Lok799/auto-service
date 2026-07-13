@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="febc8841-a404-4d1d-89a8-54f7e114b90b">
+  <producedTypes>
+    <refType typeId="121a6bd8-24fd-4b7a-b372-9dd67f25bade" valueTypeId="8b0248c4-5de8-4eab-bc0c-ecbfecb78ff0"/>
+    <listType typeId="e53e5b8a-6109-4485-b18a-c2eb7371d271" valueTypeId="1d69dd4b-c56c-43d9-990e-3f2bb2b3ef7b"/>
+    <managerType typeId="ed8739e2-0f32-4460-a1bd-1391b1725874" valueTypeId="15f6aa7c-2d7d-4265-8c48-e8c482336b80"/>
+  </producedTypes>
+  <name>СпособыСписанияЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы списания запасов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="80a95f9f-815e-4f30-9257-5a769ad54b18">
+    <name>ПоСредней</name>
+    <synonym>
+      <key>ru</key>
+      <value>По средней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6269fce-3c28-4e40-858b-bb450f124509">
+    <name>FEFO</name>
+    <synonym>
+      <key>ru</key>
+      <value>FEFO</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

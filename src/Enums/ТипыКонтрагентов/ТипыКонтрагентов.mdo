@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78cf90cf-79a0-46ad-a2e1-bcf8c7277a0e">
+  <producedTypes>
+    <refType typeId="fadc56bb-9eb8-4401-932d-c81b536701db" valueTypeId="0071d1dd-6e2b-4b07-b2c1-cd747ff8c76d"/>
+    <listType typeId="51db35e3-e0c5-488c-9e96-5a9a935832c3" valueTypeId="05bf5502-5b4d-4b84-b1e4-8be014aefacf"/>
+    <managerType typeId="9b1160cf-18b5-4c23-bbff-c79eda8ad745" valueTypeId="a575c959-a850-4406-b32a-b724e1669a94"/>
+  </producedTypes>
+  <name>ТипыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контрагентов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="623c616f-e7cb-4739-a3b6-5c0a2c8f695c">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78b02eae-cf4f-4795-97ca-780f5ac84f95">
+    <name>Покупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

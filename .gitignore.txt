@@ -1,0 +1,12 @@
+# Стандартные исключения для 1С EDT
+/.metadata/
+/bin/
+/tmp/
+*.log
+*.db
+*.1cd
+*.cf
+*.epf
+*.erf
+.DS_Store
+Thumbs.db

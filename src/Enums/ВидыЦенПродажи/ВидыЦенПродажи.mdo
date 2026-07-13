@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d145ad2-37f4-48dd-8502-2d3bc5ed3559">
+  <producedTypes>
+    <refType typeId="08f69199-b75d-4417-8c53-ad94454f113d" valueTypeId="4d64591c-f8d0-4881-8ee3-ea039e303f6a"/>
+    <listType typeId="d8dadbf0-9782-4075-bb94-b65120bd3df9" valueTypeId="6ddc4162-c725-4884-87da-8f8719199bc9"/>
+    <managerType typeId="e3c08bb1-847f-42db-81a3-6d5bddebdf18" valueTypeId="9e896f78-ab03-4acd-800c-597e0ebf763b"/>
+  </producedTypes>
+  <name>ВидыЦенПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды цен продажи</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cda8018b-223f-4994-9df0-aa4e4f48989b">
+    <name>Розничная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розничная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="328247c1-6a32-4e67-a2eb-2593e8dd9311">
+    <name>Дисконт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисконт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

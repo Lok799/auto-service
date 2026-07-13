@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4106404-10a7-43c4-92ee-d77106e896c4">
+  <name>СервисИНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис и настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СервисИНастройки</picture>
+  </picture>
+  <content>Catalog.Пользователи</content>
+  <content>Constant.ИспользоватьСклады</content>
+  <content>Document.УчетнаяПолитика</content>
+  <content>DataProcessor.РаботаСEXCEL</content>
+</mdclass:Subsystem>

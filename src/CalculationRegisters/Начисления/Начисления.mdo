@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fe473e9-1233-40d6-bec4-ba45a5f82a1e">
+  <producedTypes>
+    <selectionType typeId="a5626a7e-2267-40ba-8834-4df414a47494" valueTypeId="f9a72bff-ef8f-4577-bde0-f513276fd14e"/>
+    <listType typeId="1e10e660-401f-4000-9781-7d84abeb1ba6" valueTypeId="2e73bd68-8fb6-431f-87d0-641330b441dc"/>
+    <managerType typeId="7f135fb4-1d02-47dc-ba0e-319b3e879e3f" valueTypeId="4556df13-4444-4a30-aa85-0d0a9c86e4cc"/>
+    <recordSetType typeId="b6f2559f-89be-477a-a2f8-af7fd3fb8d82" valueTypeId="e2e4c308-4a25-433a-8e08-ff161053200e"/>
+    <recordKeyType typeId="dded1e1c-7646-4618-a539-f5669c944267" valueTypeId="b1d46ecb-6769-4c0e-b466-116951804897"/>
+    <recordType typeId="a438bd54-3ed3-4e18-9937-ae2487a8abe2" valueTypeId="0db762e3-d79d-4b63-bc5c-2a87e6be0aa2"/>
+    <recalcsType typeId="f9abb8e3-b22b-4819-9582-c3aa61efb097" valueTypeId="4baf3f4d-60e2-4dc8-9745-1bc4519fe53c"/>
+  </producedTypes>
+  <name>Начисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister.ГрафикиРаботыПредприятия</schedule>
+  <scheduleValue>InformationRegister.ГрафикиРаботыПредприятия.Resource.КоличествоЧасов</scheduleValue>
+  <scheduleDate>InformationRegister.ГрафикиРаботыПредприятия.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1ac6e4cc-927b-42c1-b14c-d5ae1a5b7bee">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФинансовыеДанные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="e2304b82-f5bc-4ab1-ad08-7adbdf6fe996">
+    <name>ПоказательРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель расчета</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФинансовыеДанные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="12ce1255-2781-4530-ad90-88d6b8bb4924">
+    <name>График</name>
+    <synonym>
+      <key>ru</key>
+      <value>График</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафикиРаботыСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <scheduleLink>InformationRegister.ГрафикиРаботыПредприятия.Dimension.График</scheduleLink>
+  </attributes>
+  <dimensions uuid="00d7637a-d969-4ec6-bc6b-24d3aa482827">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>

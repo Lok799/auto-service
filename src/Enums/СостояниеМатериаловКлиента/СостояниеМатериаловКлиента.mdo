@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61c9bd30-7c55-46a7-b2b2-9a3e602ed124">
+  <producedTypes>
+    <refType typeId="3ef4a83f-9389-42c0-a6c6-7e9656ad3371" valueTypeId="3208de69-b9de-4f85-9edf-054f894e4754"/>
+    <listType typeId="d0920a8c-8d00-48d6-b2f7-70fc7b5e80f0" valueTypeId="365560d9-6b14-4890-93f6-c5f3f3205a37"/>
+    <managerType typeId="e2479905-5aab-42e0-b0fb-257fbee657ed" valueTypeId="03420eed-1304-448f-8553-92ef782d59a2"/>
+  </producedTypes>
+  <name>СостояниеМатериаловКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние материалов клиента</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a808dc36-1eea-486e-82ef-8ec685084b8b">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f404c68e-6fad-4b40-8b4c-19035c7711f5">
+    <name>БУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Б/У</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

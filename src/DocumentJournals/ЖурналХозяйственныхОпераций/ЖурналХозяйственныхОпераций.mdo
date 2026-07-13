@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f51f82e3-3b11-4c57-85d4-f28aff41b123">
+  <producedTypes>
+    <selectionType typeId="d16e2112-62cc-4324-a871-1a4b5cc58aea" valueTypeId="d6bea487-3601-4872-ba9f-c4e567c9d55d"/>
+    <listType typeId="1de965c5-79c3-4e17-a7a7-0cbefca63ef9" valueTypeId="0a7ac0d0-cc3f-47d9-a613-a4ff32e8bb1c"/>
+    <managerType typeId="227e3c61-869d-4560-92c4-0bc81d906268" valueTypeId="dca243db-8a31-4b81-84a6-ee12ae36eb5c"/>
+  </producedTypes>
+  <name>ЖурналХозяйственныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал хозяйственных операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.Реализация</registeredDocuments>
+  <registeredDocuments>Document.ПриходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document.РасходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document.НачислениеЗарплаты</registeredDocuments>
+  <registeredDocuments>Document.БольничныйЛист</registeredDocuments>
+  <registeredDocuments>Document.Премия</registeredDocuments>
+  <columns uuid="8febcb5c-c641-4f6b-8e74-aed6ee8f6af9">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.ВидОперации</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.ВидОперации</references>
+  </columns>
+  <columns uuid="953f9d7e-9ed4-44be-a57f-95818c8743bc">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Контрагент</references>
+    <references>Document.Реализация.Attribute.Контрагент</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Плательщик</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Получатель</references>
+  </columns>
+  <columns uuid="b4aa2cce-6cdc-41f2-bb80-f119723c61c0">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.СуммаДокумента</references>
+    <references>Document.Реализация.Attribute.СуммаДокумента</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.СуммаДокумента</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.СуммаДокумента</references>
+  </columns>
+</mdclass:DocumentJournal>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="def75948-fff0-4165-aaf4-fa825f6d4207">
+  <producedTypes>
+    <selectionType typeId="fbef7a60-ceb8-4023-9a03-d94b84338fcb" valueTypeId="a4ae2335-4f55-4138-8057-61f4ba706fdb"/>
+    <listType typeId="f2cd7ad0-ac8f-46c9-9542-239333960dac" valueTypeId="6d89c3f4-34d9-4c0e-ac56-349c13d26567"/>
+    <managerType typeId="5518a9a9-4270-4810-8b07-55a2a24e7063" valueTypeId="50efbfdc-d969-4900-aa63-ab1de3a45905"/>
+    <recordSetType typeId="aade05d6-9f04-40be-b4f2-f57fe0196de1" valueTypeId="b63931e3-1c13-4d05-906e-838e3886c8d9"/>
+    <recordKeyType typeId="57251d20-b937-494b-9049-67f219dc454f" valueTypeId="1d34e14d-6627-47dd-804d-23047b4a2201"/>
+    <recordType typeId="9f4e5b2d-5a4e-4f69-a1ef-911cad3165a1" valueTypeId="886f82ad-9ac9-4062-a367-e5c4d507b762"/>
+  </producedTypes>
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="eedba570-8622-451d-8528-671262ceaf15">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФинансовыеДанные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="09204776-07fe-41cb-bac3-9d1161505b43">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f4b8341-6049-4fdc-ac50-a3f70dd4faa4">
+  <producedTypes>
+    <objectType typeId="612286fb-4f20-4d21-b36d-c131d91508a3" valueTypeId="8539d0da-8999-4864-95bd-1932f6e4c3ab"/>
+    <refType typeId="018e8a36-677b-4fe4-9c8c-1a49d28c9d70" valueTypeId="4468d871-6a93-4a39-b3eb-8f95eb76b027"/>
+    <selectionType typeId="ebcc5378-5258-405c-a41c-bb607601dd88" valueTypeId="9d6405fa-533c-4f7a-a5ec-86e5f1b5a8ab"/>
+    <listType typeId="6e30d8f9-8bb3-44f6-ad85-f387f556a7d0" valueTypeId="7fcc6877-8125-4b6f-9844-19c42194c0fa"/>
+    <managerType typeId="6158beac-6d73-478d-a92c-2777e056f6c5" valueTypeId="e9fc00a7-9473-4206-8517-f4c5adf3b57e"/>
+  </producedTypes>
+  <name>ЦветаАвтомобилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета автомобилей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЦветаАвтомобилей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЦветаАвтомобилей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЦветаАвтомобилей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЦветаАвтомобилей.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="d65dd0cf-feed-4f47-8ea6-7cf05b53d172">
+    <name>КодКраски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код краски</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9caa9661-22b2-4d9d-9d90-a4cbde675cad">
+    <name>ЦветПоТехПаспорту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет по тех. паспорту</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОписаниеЦветовДляТехпаспорта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74a1d5b2-64a1-4793-8841-2e6ee65d03d9">
+    <name>Металлик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Металлик</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bdeda6f6-f9dc-4b84-a076-00ffb6e88e14">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2d2723bf-206b-454d-9ad9-15dfdd72e845">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

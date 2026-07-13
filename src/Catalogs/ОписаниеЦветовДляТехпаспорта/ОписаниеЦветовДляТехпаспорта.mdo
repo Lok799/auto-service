@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d796e7f7-bc5a-4eab-9c56-f56902adedb4">
+  <producedTypes>
+    <objectType typeId="11bf05be-3833-4d2d-b270-024d9550f768" valueTypeId="cd048513-6cde-4101-88b7-fb76d358cea7"/>
+    <refType typeId="3063b9f6-7eb6-4e28-a8e4-f6641b8cd60f" valueTypeId="c1e44d34-0c1e-489a-86b5-eaac26941dee"/>
+    <selectionType typeId="ec6e7453-8082-4704-a180-222504587746" valueTypeId="d1b6ea6e-0b56-4c01-9959-baf7387ae347"/>
+    <listType typeId="265e89e4-3044-493f-b73d-04d98e3793b0" valueTypeId="f9f48169-aec7-42eb-b26b-b5fe24c0254f"/>
+    <managerType typeId="5255c177-2e76-46b7-9b4a-bd7e52a04f09" valueTypeId="51a7faf3-eb29-4900-9ff6-223af18aa18a"/>
+  </producedTypes>
+  <name>ОписаниеЦветовДляТехпаспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета для указания в тех. паспорте</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОписаниеЦветовДляТехпаспорта.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОписаниеЦветовДляТехпаспорта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ОписаниеЦветовДляТехпаспорта.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ОписаниеЦветовДляТехпаспорта.Form.ФормаСписка</defaultListForm>
+  <forms uuid="6243463c-4efb-456f-ad88-1e84f8acd64c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2b8bec9e-e208-4c96-99cd-72b168e11f18">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

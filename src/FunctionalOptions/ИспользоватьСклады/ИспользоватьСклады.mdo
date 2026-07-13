@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="677d4aad-2ecc-4ac5-99c4-128eb67f7111">
+  <name>ИспользоватьСклады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать склады</value>
+  </synonym>
+  <location>Constant.ИспользоватьСклады</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Склады</content>
+  <content>Document.ПоступлениеТоваровИУслуг.Attribute.Склад</content>
+  <content>Document.ЗаказНаряд.Attribute.Склад</content>
+  <content>Document.Реализация.Attribute.Склад</content>
+</mdclass:FunctionalOption>

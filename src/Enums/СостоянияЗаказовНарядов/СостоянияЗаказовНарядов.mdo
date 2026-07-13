@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74dec9cc-6e18-465d-b40f-8363745583a7">
+  <producedTypes>
+    <refType typeId="69715c3f-eace-4199-a64c-9434bc7ee2fc" valueTypeId="1080b787-9e7e-42c2-bfa0-bcf198664cb9"/>
+    <listType typeId="01169042-56bd-4b12-9466-04398fccb003" valueTypeId="bb0ddf8f-d1c4-44fd-8290-b2005feb74fe"/>
+    <managerType typeId="93088a05-e8cd-417f-8b49-78572ef566a2" valueTypeId="83c9e7d6-1956-493f-9602-c2e80916a8ed"/>
+  </producedTypes>
+  <name>СостоянияЗаказовНарядов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния заказов-нарядов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c283dd0-e143-44f7-b568-fd070be5d067">
+    <name>ПредварительнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительная запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ff64969-b547-44a7-b3df-639fddc7d464">
+    <name>ПриянтВРемонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приянт в ремонт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98cf658c-cf3f-41a9-a036-21ddf3ff7940">
+    <name>Ремонтируется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремонтируется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfbfcb75-2563-42c3-beac-d6f8a3cbfd27">
+    <name>РемонтЗавершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремонт завершен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3bbd5747-2df0-4cb2-95fc-2e029cc16993">
+    <name>ПринятЗаказчиком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят заказчиком</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
