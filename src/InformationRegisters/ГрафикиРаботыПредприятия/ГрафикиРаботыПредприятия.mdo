@@ -17,10 +17,6 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <recordPresentation>
-    <key>ru</key>
-    <value>Графики работы предприятия</value>
-  </recordPresentation>
   <resources uuid="2b224fab-cba5-41bb-9978-d2e8530eae44">
     <name>КоличествоЧасов</name>
     <synonym>

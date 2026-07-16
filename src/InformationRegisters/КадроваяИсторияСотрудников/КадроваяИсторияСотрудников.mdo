@@ -19,10 +19,6 @@
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <recordPresentation>
-    <key>ru</key>
-    <value>Кадровая история сотрудников</value>
-  </recordPresentation>
   <resources uuid="e65e47ab-8f34-4422-ad9b-2139e4d459ed">
     <name>Оклад</name>
     <synonym>

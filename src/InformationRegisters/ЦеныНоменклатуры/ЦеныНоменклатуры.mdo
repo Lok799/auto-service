@@ -21,10 +21,6 @@
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <recordPresentation>
-    <key>ru</key>
-    <value>Цены номенклатуры</value>
-  </recordPresentation>
   <resources uuid="5ed6cdbb-1bee-4641-94cc-28a6a6eff595">
     <name>Цена</name>
     <synonym>

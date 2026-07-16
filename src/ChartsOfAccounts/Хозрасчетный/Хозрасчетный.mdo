@@ -12,7 +12,7 @@
   <name>Хозрасчетный</name>
   <synonym>
     <key>ru</key>
-    <value>План счетов бухгалтерского учета</value>
+    <value>План счетов бухгалтерского учёта</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>ChartOfAccounts.Хозрасчетный.StandardAttribute.Description</inputByString>
@@ -21,10 +21,6 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <objectPresentation>
-    <key>ru</key>
-    <value>План счетов бухгалтерского учета</value>
-  </objectPresentation>
   <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные</extDimensionTypes>
   <maxExtDimensionCount>1</maxExtDimensionCount>
   <codeLength>9</codeLength>
