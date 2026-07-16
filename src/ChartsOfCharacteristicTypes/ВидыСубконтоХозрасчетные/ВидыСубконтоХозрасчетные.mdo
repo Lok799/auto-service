@@ -20,6 +20,10 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Виды субконто хозрасчетные</value>
+  </objectPresentation>
   <type>
     <types>CatalogRef.Номенклатура</types>
     <types>CatalogRef.СтатьиЗатрат</types>
