@@ -849,10 +849,6 @@
           <event>AfterDeleteRow</event>
           <name>УслугиПослеУдаления</name>
         </handlers>
-        <handlers>
-          <event>OnChange</event>
-          <name>УслугиПриИзменении</name>
-        </handlers>
         <searchStringAddition>
           <name>УслугиСтрокаПоиска</name>
           <id>48</id>
@@ -1488,10 +1484,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
